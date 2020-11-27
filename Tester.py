@@ -6,10 +6,10 @@ def slowprint(s):
     for i in s + '\n':
         sys.stdout.write(i)
         sys.stdout.flush()
-        time.sleep(0.05)
+        time.sleep(0.06)
 
 while True:
-    elf_choice = input("Please choose where the elfs go, forest=1, mountins=2, woods=3: ")
+    elf_choice = input("Where? Woods = 1, Forest = 2, Moutin = 3: ")
     if elf_choice == 1:
         slowprint("Elfs returned safely")
 
