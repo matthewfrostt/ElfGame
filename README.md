@@ -1,6 +1,3 @@
-# ElfGame
-# ElfGame
-
 # ELF Christmas Game:
 
     Details:
@@ -20,8 +17,23 @@
         - mountins: $50 per tree
     - Players:
         - 2+ players
-        - could implement a 1 player system
-
-
+        - could implement a 1 player syste
+        -
+    
+    - Notes:
+        - Selling could use a SQL database
+            - Storing the companies money
+            - +/- the companies value
+            - keeping track
+            
+        - Keep track of the days:
+            - way to keep track of the day 
+            - Alowwing time for the user to add input for elfs on buying days
+            
+        - 1 Player system:
+            - Have a time frame to get a certain amount of money?
+            - mine enough tree to build houses for christmas?
+            - maybe change to building presents for chirstmas?
+            -
 
 
