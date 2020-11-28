@@ -24,3 +24,4 @@ elif elf_s == "7":
     slowprint("You are sending {} elfs, now you have {} elfs!".format(elf_s,elf_am - 7))
 elif elf_s == "8":
     slowprint("You are sending {} elfs, now you have {} elfs!".format(elf_s,elf_am - 8))
+#Notes - Need to try and add .format(elf_am - elf_s) have attempted, it outputs invalid syntax: unsupported operand type(s) for -: 'int' and 'str'
