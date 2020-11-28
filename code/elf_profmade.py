@@ -16,5 +16,7 @@ elf_s = int(input("How many Elfs would you like to send to work today?: "))
 woodsp = elf_s * woods
 choice = input("Pick a destination to send the Elfs to work: 1 - Woods, 2 - Forest, 3 - Mountains: ")
 if choice == "1":
-    slowprint("You have sent {} Elf/Elfs to the Woods and made ${} !".format(elf_s,woodsp)) 
+    slowprint("You have sent {} Elf/Elfs to the Woods and made ${} !".format(elf_s,woodsp))
+    slowprint("Your final balance for Day 1 is ${}!".format(cash + woodsp))
     
+#Note - Lucas is sexy look at what he made ^
